@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #c5c88d; 
+}
+
+.main-container {
+    background: rgb(238,181,174);
+    background: radial-gradient(circle, rgba(238,181,174,1) 22%, rgba(148,195,233,1) 80%);
+    height: 100vh;
+    background-color: #d1b5b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    background-color: #d0cdc1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 60%; 
+    height: 250px; 
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem; 
+    border: 1px solid #003366;
+}
+
+.text {
+    font-size: 2rem;
+    color: #581f1f;
+}
+
+.text span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.cta-button {
+    text-decoration: none;
+    color: #000;
+    font-style: italic; 
+}
+
+.highlight-text {
+    font-size: 20px; 
+    padding: 0 2px; 
+    color: #685b36;
+}
+
+.cta-button:hover {
+    background-color: #e9a270;
+}
