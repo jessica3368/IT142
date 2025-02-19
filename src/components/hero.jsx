@@ -1,20 +1,32 @@
+import React from 'react';
+import { Link } from "react-router-dom";
+import Profile from '../assets/conan.png';
 
-import '../style/hero.css';
-import reactLogo from "../assets/conan.png";
-
-function App() {
+const Hero = () => {
   return (
-    <div className="main-container">
-      <div className='container'>
-        <img src={reactLogo} alt="Profile" className='profile-image' />
-        <div className='text'>
-            <h2>Hello, <span>I am</span> <span className="highlight">Jessica!</span></h2>
-            <p>Every challenge is a chance to grow, and I choose to face them with curiosity and heart.</p>
-            <a href="#" className="cta-button highlight-text">Hire me!</a>
+    <div className='main-container'>
+        <nav>
+          <ul className='l-ul'>
+            <li><Link to={"/"}>Home</Link></li>
+            <li><Link to={"/about"}>About</Link></li>
+          </ul>
+          <ul className='r-ul'>
+            <li><Link>Contact</Link></li>
+            <li><Link>Work</Link></li>
+          </ul>
+        </nav>
+
+        <div className='profile'>
+            <img src={Profile} alt="" />
         </div>
-      </div>
+
+        <div className='home-text'>
+          <h1>Hello, <span className='italic'>I am Jessica!</span></h1>
+          <p>Every challenge is a chance to face them with curiosity and heart.</p>
+          <p className='hire-me'><Link>Hire me</Link></p>
+        </div>
     </div>
   );
 }
 
-export default App;
+export default Hero;
