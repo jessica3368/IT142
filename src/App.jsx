@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect } from 'react';
 import { Navbar } from './components/Navbar';
 import { Home } from './components/Home';
@@ -62,3 +63,23 @@ function App() {
 }
 
 export default App;
+=======
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Hero from "./components/hero";
+import About from "./components/about";
+import "./style/hero.css"
+import "../src/App";
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
+>>>>>>> e0a0d1bb5917b15f6c74e1e1abec7ca2856f20fe
