@@ -6,7 +6,6 @@ body, html {
     background: radial-gradient(circle, #ffd0cd 30%, #cdc1ff 50%, #7ca8c1 100%);
 }
 
-<<<<<<< HEAD
 .burger-menu {
     display: none;
     position: fixed;
@@ -32,11 +31,6 @@ body, html {
 .main-container, .main-work-container {
     width: 100%;
     height: 85vh;
-=======
-.main-container {
-    width: 100%;
-    height: 70vh;
->>>>>>> e0a0d1bb5917b15f6c74e1e1abec7ca2856f20fe
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -47,10 +41,6 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #d0cdc1;
-<<<<<<< HEAD
-=======
-    padding: 3rem;
->>>>>>> e0a0d1bb5917b15f6c74e1e1abec7ca2856f20fe
 }
 nav{
     display: flex;
@@ -65,36 +55,22 @@ ul{
 
 li{
     list-style: none;
-<<<<<<< HEAD
     font-size: 1.6rem;
     font-weight: 400;
-=======
-    font-size: 1.8rem;
-    font-weight: 500;
-
->>>>>>> e0a0d1bb5917b15f6c74e1e1abec7ca2856f20fe
 }
 
 ul a{
     text-decoration: none;
-<<<<<<< HEAD
     color: #312813cb;
 }
 ul a:hover{
     color: #375a3f;
-=======
-    color: rgba(103, 82, 43, 0.937);
->>>>>>> e0a0d1bb5917b15f6c74e1e1abec7ca2856f20fe
 }
 
 .profile{
     width: 15rem;
     height: 15rem;
-<<<<<<< HEAD
     border: 1px solid blue  ;
-=======
-    border: 1px solid rgb(48, 73, 66)  ;
->>>>>>> e0a0d1bb5917b15f6c74e1e1abec7ca2856f20fe
     border-radius: 50%;
     padding: 2px;
 }
@@ -131,7 +107,6 @@ p a{
     text-decoration: none;
     font-style: italic;
     color: #375a3f;
-<<<<<<< HEAD
     
 }
 
@@ -140,12 +115,6 @@ p a:hover{
 }
 
 /* about */
-=======
-}
-
-/* about */
-
->>>>>>> e0a0d1bb5917b15f6c74e1e1abec7ca2856f20fe
 .about-con{
     display: flex;
     width: 90%;
@@ -185,11 +154,7 @@ p a:hover{
     align-items: flex-start;
     justify-content: flex-start; 
     padding-bottom: 3rem;
-<<<<<<< HEAD
     color: #4d1f1f;
-=======
-    color: #662828;
->>>>>>> e0a0d1bb5917b15f6c74e1e1abec7ca2856f20fe
 }
 
 .about-txt p{
@@ -201,17 +166,10 @@ p a:hover{
     padding: 1.2rem;
     border-radius: 0.5rem;
     border: none;
-<<<<<<< HEAD
     background-color: rgba(0, 98, 255, 0.937);
 }
 .about-btn button:hover{
     background-color: #375a3f;
-=======
-    background-color: rgba(96, 93, 59, 0.937);
-}
-.about-btn button:hover{
-    background-color: #44614b;
->>>>>>> e0a0d1bb5917b15f6c74e1e1abec7ca2856f20fe
 }
 
 .about-btn button a{
@@ -219,7 +177,6 @@ p a:hover{
     text-decoration: none;
     font-size: 1.2rem;
 }
-<<<<<<< HEAD
 
 /* work */
 .work-container{
@@ -419,5 +376,3 @@ textarea{
     color: black;
     cursor: pointer;
 }
-=======
->>>>>>> e0a0d1bb5917b15f6c74e1e1abec7ca2856f20fe
